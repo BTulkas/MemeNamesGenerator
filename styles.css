@@ -18,3 +18,18 @@
 button{
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.6), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
 }
+
+.easterEgg {
+    -webkit-animation: glow 1.3s ease-in-out infinite alternate;
+    -moz-animation: glow 1.3s ease-in-out infinite alternate;
+    animation: glow 1.3s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 10px #fc4007, 0 0 15px #fc4007, 0 0 20px #fc4007, 0 0 25px #fc4007, 0 0 30px #fc4007;
+    }
+    to {
+      box-shadow: 0 0 5px #fff, 0 0 5px #f1652e, 0 0 10px #f1652e, 0 0 15px #f1652e, 0 0 20px #f1652e, 0 0 25px #f1652e, 0 0 30px #f1652e;
+    }
+  }
