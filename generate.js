@@ -27,11 +27,12 @@ function getRandom(max){
 }
 
 function generate(){
+    $("#textWrapper").removeClass("easterEgg");
     let roll = getRandom(1000);
     let name;
     if(roll===0){
         name = "TheLegend27";
-        $("#textWrapper").addClass("easterEgg")
+        $("#textWrapper").addClass("easterEgg");
     } else if(getRandom(4)===3) {
         let wrap = wrapper[getRandom(wrapper.length)];
         name = wrap[0]+prefix[getRandom(prefix.length)]+baseName[getRandom(baseName.length)]+suffix[getRandom(suffix.length)]+wrap[1];
