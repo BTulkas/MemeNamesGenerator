@@ -2,23 +2,23 @@ const baseName = [
     "", "Pepe", "TunakTunak", "Pussy", "Dick", "Jizz", "Blaze", "Meme", "Sk8er", "Smurf", "Doge", "RickRoll", "NotLacist",
     "BobNVajin", "ApacheHelicopter", "Simp", "Demon", "MadLad", "MadLass", "FforHarambe", "Virgin", "ExtraVirgin", "Anon",
     "Senpai", "Samurai", "Geisha", "Noob", "Cheese", "RageComic", "Troll", "Derp", "Derpette", "ForeverAlone", "MeGusta",
-    "Impossibru", "Trollface", "Potato", "OOF", "Yeet"
+    "Impossibru", "Trollface", "Potato", "OOF!", "Yeet"
 ]
 
 const suffix = [
     "", "420", "69", "Slayer", "Lord", "Masta", "Boy", "Girl", "nator", "Blazer", "Ganja", "Nerd",
     Math.floor((Math.random()*99)+1)+"", "XxX", "Face", "Queen", "King", "Killer", "Flame", "2.0", "Remastered", "[Remix]",
-    "Reforged", "Overlord", "Skeleton", "InHD", "In4k", "God", "IsSus", "FromNA", "Emote", "Dance"
+    "Reforged", "Overlord", "Skeleton", "InHD", "In4k", "God", "IsSus", "FromNA", "Emote", "Dance", "Juice"
 ]
 
 const prefix = [
     "", "Dat", "The", "the", "Mr.", "Mrs.", "Lord", "Lady", "Ms.", "Ganja", "Super", "Captain", "TheIncredible", "Papa", "Mama",
     "A", "Big", "Lil'", "Master", "Supreme", "Holy", "Sir", "Pro", "Omega", "Uber", "Ultra", "SSJ", "Mecha", "It's", "That's", "Just",
-    "YeOld", "TheOG", "OldSchool", "Disappointed", "JhonnySinsAs", "Pickle", "Suspicious"
+    "YeOld", "TheOG", "OldSchool", "Disappointed", "JhonnySinsAs", "Pickle", "Suspicious", "TheLast", "Disappointing", "Dark", "Darth", "White"
 ]
 
 const wrapper = [
-    ["xXx_", "_xXx"], ["_", "_"], ["oO_", "_Oo"], ["AreYaWinning_", "?"], []
+    ["xXx_", "_xXx"], ["_", "_"], ["oO_", "_Oo"], ["AreYaWinning_", "?"]
 ]
 
 
