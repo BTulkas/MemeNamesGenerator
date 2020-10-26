@@ -28,7 +28,7 @@ function getRandom(max){
 
 function generate(){
     $("#textWrapper").removeClass("easterEgg");
-    let roll = getRandom(1000);
+    let roll = getRandom(0);
     let name;
     if(roll===0){
         name = "TheLegend27";
